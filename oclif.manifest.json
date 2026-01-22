@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "commands": {
+    "balance": "./dist/commands/balance.js",
+    "capital": "./dist/commands/capital.js",
+    "transactions": "./dist/commands/transactions.js",
+    "spend": "./dist/commands/spend.js",
+    "pay-over-time": "./dist/commands/pay-over-time.js",
+    "businesses": "./dist/commands/businesses.js"
+  }
+}
