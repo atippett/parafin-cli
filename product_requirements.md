@@ -4,16 +4,6 @@
 
 ```yaml
 commands:
-  - name: balance
-    purpose: Get current account balance
-    options:
-      - name: format
-        short: f
-        type: string
-        description: Output format (json, table)
-        default: json
-        choices: [json, table]
-
   - name: business.get
     purpose: Get business by ID
     arguments:

@@ -1,6 +1,10 @@
 # Parafin CLI
 
-A command-line interface tool for interacting with the Parafin API. This CLI provides easy access to business information, capital products, bank accounts, and more.
+A command-line interface tool for interacting with the [Parafin](https://www.parafin.com/) API. This CLI provides easy access to business information, capital products, bank accounts, and more.
+
+**About Parafin**: Parafin provides embedded financial solutions including Capital, Spend Card, and Pay Over Time products for platforms. Learn more at [parafin.com](https://www.parafin.com/).
+
+**API Documentation**: The full API reference documentation is available at [docs.parafin.com/api-reference](https://docs.parafin.com/api-reference).
 
 ## Features
 
@@ -88,14 +92,6 @@ The CLI will automatically:
 
 ### Commands
 
-#### Balance
-Get current account balance.
-
-```bash
-parafin balance
-parafin balance -f yaml
-```
-
 #### Business Commands
 
 **List businesses:**
@@ -154,12 +150,6 @@ parafin util.generate_doc_md --output api_docs.md
 ## Examples
 
 ```bash
-# Get account balance in JSON format
-parafin balance
-
-# Get account balance in YAML format
-parafin -f yaml balance
-
 # Get comprehensive business information
 parafin business.all business_a8153512-942a-41be-992d-7fb8090ae953
 
@@ -262,4 +252,5 @@ MIT
 
 ## Support
 
-For API documentation, visit: https://docs.parafin.com/api-reference
+- **Product Website**: [parafin.com](https://www.parafin.com/)
+- **API Documentation**: [docs.parafin.com/api-reference](https://docs.parafin.com/api-reference)
